@@ -2,7 +2,9 @@
 
 name: 'self hosted runner demo'
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  push:
 
 jobs:
   hello-self-hosted-runner:
